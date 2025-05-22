@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Academia de Danza</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fef6f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #d81b60;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f8bbd0;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d81b60;
+    }
+
+    main {
+      padding: 2em;
+    }
+
+    footer {
+      background-color: #d81b60;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: #d81b60;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="font-size: 48px; font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;">Contacto</h1>
+</header>
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="clases.html">Clases</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <main>
+    <h2 style="font-size: 36px">Escríbenos...</h2>
+    <h2 style="font-size: 36px"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAl5sbK7Y5w2JkBfO7wVNixJxf3uoIxkBoPw&amp;s" alt="Contacto" width="549" height="208" class="sFlh5c FyHeAf" style="max-width: 2184px; width: 763px; height: 220px; margin: 0px;" jsname="JuXqh" data-ilt="1747946067741"></h2>
+    <form action="#" method="post">
+      <p>
+        <label for="nombre"><strong>Nombre:</strong></label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email"><strong>Correo electrónico:</strong></label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="mensaje"><strong>Mensaje:</strong></label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        
+        <input type="submit" value="Enviar">
+      </p>
+      <p>&nbsp;</p>
+    </form>
+</main>
+  <footer>
+    Síguenos en <a href="https://facebook.com" target="_blank" style="color: white;">Facebook</a>
+  </footer>
+</body>
+</html>
